@@ -2,20 +2,20 @@
   "name": "filmoteka_grupa-4",
   "version": "2.0.0",
   "description": "projekt grupowy realizowany w ramach kursu goit, z modułu javascript",
-  "homepage": "https://maksymilianbilski.github.io/filmoteka_grupa-4/",
+  "homepage": " https://urszula-molska.github.io/filmoteka_grupa-4-kopia_na_github/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka_grupa-4/"
+    "build": "parcel build src/*.html --public-url /filmoteka_grupa-4-kopia_na_github/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaksymilianBilski/filmoteka_grupa-4"
+    "url": "git+https://github.com/Urszula-Molska/filmoteka_grupa-4-kopia_na_github"
   },
   "keywords": [],
   "author": "Maksymilian Bilski <biger9@o2.pl>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MaksymilianBilski/filmoteka_grupa-4/issues"
+    "url": "https://github.com/Urszula-Molska/filmoteka_grupa-4-kopia_na_github/issues"
   },
   "dependencies": {
     "@swc/helpers": "^0.4.12",
