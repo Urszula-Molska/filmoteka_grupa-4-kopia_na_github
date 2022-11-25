@@ -10,13 +10,6 @@ let time1;
 let time2;
 let timeDifference = 1000;
 
-function fetchMovies(API_KEY) {
-  fetch(`https://api.themoviedb.org/3/trending/all/day?api_key=${API_KEY}`)
-    .then(response => response.json())
-    .then(data => start(data));
-}
-fetchMovies(API_KEY);
-
 async function fetchMovies(API_KEY) {
   time1 = new Date().getTime();
   const spinner = new Spinner(opts).spin(getMovie);
@@ -34,6 +27,9 @@ async function fetchMovies(API_KEY) {
   time2 = new Date().getTime();
   timeDifference = time2 - time1;
 }
+
+fetchMovies(API_KEY);
+
 function start(movies) {
   for (const movie of movies.results) {
     totalPages = movies.total_pages;
